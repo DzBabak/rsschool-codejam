@@ -1,0 +1,22 @@
+{
+  "name": "codejam",
+  "version": "1.0.0",
+  "description": "CodeJam",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "lint": "./node_modules/.bin/eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DzmitryBabak/rsschool-codejam"
+  },
+  "author": "Dzmitry Babak",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^3.2.0"
+  }
+}
